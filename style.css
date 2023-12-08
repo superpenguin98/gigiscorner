@@ -1,0 +1,50 @@
+body {
+  background-image: url("gradient2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  background-size: cover;}
+h1 {
+  text-align: center;
+  font-family: porcelain;
+  text-shadow: 2px 2px 8px white;}
+tr.evening {
+  /* This class means that I use the product in the evening and/or only a few times a week, not daily! */
+  background-color: #D7F0FF;
+  
+}    
+div.post {background-color:rgba(255, 255, 255, 0.5);
+  border:2px solid black;
+  border-radius: 8px;
+  padding:30px;
+  margin:100px;
+  text-align:center;
+  font-family:lora;}
+a:link, a:visited {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+a:hover, a:active {
+  background-color: white;
+  color: black;
+  }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  }
+table {
+  margin: 0 auto;}
+th {
+  background-color: #FF8FC8;
+  color: black;
+}
+  
+tr:hover {
+  color: white;
+  background-color: #674CFF;
+  }
