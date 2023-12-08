@@ -15,6 +15,11 @@ h1 {
   text-align: center;
   font-family: porcelain;
   text-shadow: 2px 2px 8px white;}
+tr.evening {
+  /* This class means that I use the product in the evening and/or only a few times a week, not daily! */
+  background-color: #D7F0FF;
+  
+}    
 div.post {background-color:rgba(255, 255, 255, 0.5);
   border:2px solid black;
   border-radius: 8px;
@@ -43,8 +48,10 @@ table {
   margin: 0 auto;}
 th {
   background-color: #FF8FC8;
-  }
-td:hover {
+  color: black;
+}
+  
+tr:hover {
   color: white;
   background-color: #674CFF;
   }
@@ -65,7 +72,7 @@ td:hover {
 <th>Brand</th>
 <th>My rating</th>
 </tr>
-<tr style="background-color: #D7F0FF;">
+<tr class='evening'>
 <td>Micellar water</td>
 <td>Probio Clean, Probiotic micellar water</td>
 <td>Soraya</td>
@@ -77,7 +84,7 @@ td:hover {
 <td>YASUMI</td>
 <td>4/5<br>good but also nothing special</td>
 </tr>
-<tr style="background-color: #D7F0FF;">
+<tr class='evening'>
 <td>Toner</td>
 <td>C.B3 Niacynamid, Nie-codzienny tonik kwasowy 1% [AHA+PHA]</td>
 <td>ziaja</td>
@@ -89,7 +96,7 @@ td:hover {
 <td>Revox</td>
 <td>5/5<br>I love it!</td>
 </tr>
-<tr style="background-color: #D7F0FF;">
+<tr class='evening'>
 <td>Treatment serum</td>
 <td>Just Salicylic Acid Peeling Solution</td>
 <td>Revox</td>
@@ -107,7 +114,7 @@ td:hover {
 <td>Skinimal</td>
 <td>5/5<br>I love it! And moisturises greatly</td>
 </tr>
-<tr style="background-color: #D7F0FF;">
+<tr class='evening'>
 <td>Nightcream</td>
 <td>Skoncentrowany krem seboregulujący Kwas azelainowy 10%</td>
 <td>Skinimal</td>
