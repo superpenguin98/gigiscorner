@@ -48,3 +48,15 @@ tr:hover {
   color: white;
   background-color: #674CFF;
   }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 20px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+li {
+  float: left;
+  padding-right: 30px;
+}
