@@ -48,7 +48,7 @@ tr:hover {
   color: white;
   background-color: #674CFF;
   }
-ul {
+#nav{
   list-style-type: none;
   margin: 0;
   padding-right: 20px;
@@ -59,4 +59,9 @@ ul {
 li {
   float: left;
   padding-right: 30px;
+}
+
+ul li:hover {
+	font-family: lora;
+	transform: scale(0.75);
 }
