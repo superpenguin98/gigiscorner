@@ -5,13 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gigi's resources</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Lora|Fasthand' rel='stylesheet'>
 <link href='style.css' rel='stylesheet'>
 </head>
 <body style="background-color:#FFDEEF;">
 <header>
 <h1>Gigi's resources<img src="bear.gif" width="100" height="100" alt="Cute bear"></h1>
 </header>
-
+<button class="info" type="button" onclick="myFunction()">About this page</button>
+<p id="info" class="post"></p>
+<script>
+function myFunction() {
+var infoElement = document.getElementById("info");
+infoElement.innerHTML = "Here is the promised page with resources I've found so far. I decided to divide them into two categories: tutorials and games. I'm sure the page will grow with each resource and with time I'll add more categories. I hope you enjoy this small page and find something useful for you too!"
+  infoElement.classList.add("showBorder");
+}
+</script>
 </body>
 </html>
+
