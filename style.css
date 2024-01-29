@@ -66,7 +66,7 @@ ul li:hover {
 
 /* Here starts the section for CSS for Resources page */
 
-p.post {
+p.about {
   border-radius: 8px;
   padding:30px;
   margin:100px;
@@ -84,4 +84,36 @@ p.post {
 	 font-size: 30px;
 	 border: transparent;
 	 border-bottom: 2px solid black;
+ }
+ .resource {
+  background-color:rgba(255, 255, 255, 0.5);
+  border:2px solid black;
+  border-radius: 8px;
+  padding:30px;
+  margin:100px;
+  font-family:lora;
+  }
+ 
+ .flex {
+  display: flex;
+ }
+ 
+ .flex > div {
+ width: 33%;
+ }
+ 
+ a.resrcLink:link, a.resrcLink:visited {
+	 font-family: lora;
+	 color: black;
+	 background-color: transparent;
+	 border: transparent;
+	 border-bottom: 2px solid black;
+ }
+ 
+ a.resrcLink:hover, a.resrcLink:active {
+	 font-family: lora;
+	 color: #B8388B;
+	 background-color: transparent;
+	 border: transparent;
+	 border-bottom: 2px solid #B8388B;
  }
