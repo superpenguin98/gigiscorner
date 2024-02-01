@@ -5,38 +5,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gigi's resources</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href='https://fonts.googleapis.com/css?family=Lora|Fasthand' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Lora|Fasthand|Dancing Script" rel="stylesheet">
 <link href='style.css' rel='stylesheet'>
 </head>
 <body style="background-color:#FFDEEF;">
 <header>
-<h1>Gigi's resources<img src="bear.gif" width="100" height="100" alt="Cute bear"></h1>
+<h1 class="resrch1">Gigi's resources</h1>
 </header>
 <button class="info" type="button" onclick="myFunction()">About this page</button>
 <p id="info" class="about"></p>
 <script>
 function myFunction() {
 var infoElement = document.getElementById("info");
-infoElement.innerHTML = "Here is the promised page with resources I've found so far. I decided to divide them into two categories: tutorials and games. I'm sure the page will grow with each resource and with time I'll add more categories. I hope you enjoy this small page and find something useful for you too!"
+infoElement.innerHTML = "Here is the promised page with resources I've found so far. I decided to divide them into several categories. I'm sure the page will grow as I keep finding new interesting websites all the time. I hope you enjoy this small page and find something useful for you too!"
   infoElement.classList.add("showBorder");
 }
 </script>
 
 <h2>Books</h2>
+<div class="flex">
 <div class="resource">
 <h3><a class="resrcLink" href="https://learningwebdesign.com/">Learning web design</a></h3>
+<p>Our green book, describing the basics of basics. The book has a very slow pace, explains the history behind the web before you even start learning how to code.
+The book is filled with exercises, you can download the materials from the website. You can also find links to some additional readings if you are interested.
+I find this book great, it can explain difficult terms and concepts very easily, although sometimes I find the book a  bit confusing. It seems like it tries to simplify everything a bit too much sometimes.</p>
+</div>
+<div class="resource">
+<h3><a class="resrcLink" href="https://html-und-css.de/">Einstieg in HTML und CSS</a></h3>
+<p>HTML and CSS basics but in German! OMG!</p>
+</div>
 </div>
 
 <h2>Online tutorials</h2>
 <div class="flex">
 <div class="resource">
 <h3><a class="resrcLink" href="https://www.w3schools.com/">W3Schools</a></h3>
+<p>The website I use the most. Everything I 've learnt so far comes from W3Schools. I find it great, it fits my pace and provides a lot of exercises.
+However, sometimes they introduce a new code and don't explain it. Or they explain some more challening concepts very very briefly. Fortunately, it doesn't happen too often.
+I appreaciate this website for giving access to PLENTY of tools, exercises and tests!</p>
 </div>
 <div class="resource">
 <h3><a class="resrcLink" href="https://www.freecodecamp.org/learn/">freeCodeCamp</a></h3>
+<p>Not gonna lie, I didn't like this one at first at all! But once I learned some basics on W3Schools, freeCodeCamp became a great way to practice coding!
+I still think that they oversimplified every single possible thing and that was the reason I had no idea what they wanted me to do and what I was doing.
+However, it still serves as a good platform for practice and I come back to it from time to time.</p>
 </div>
 <div class="resource">
 <h3><a class="resrcLink" href="https://www.theodinproject.com/">The Odin Project</a></h3>
+<p>I haven't checked this one properly yet!</p>
 </div>
 </div>
 
@@ -44,6 +60,8 @@ infoElement.innerHTML = "Here is the promised page with resources I've found so 
 <div class="flex">
 <div class="resource">
 <h3><a class="resrcLink" href="https://flexboxfroggy.com/#pl">Flexbox Froggy</a></h3>
+<p>Such a cute cute game where you need to use flexbox. You need to enter proper values to properties, such as justify-content, to place the froggy on its leaf in the pond.
+You can also find there a link to the game Grid Garden where you learn about CSS Grid.</p>
 </div>
 <div class="resource">
 <h3><a class="resrcLink" href="http://www.flexboxdefense.com/">Flexbox Defense</a></h3>
@@ -51,6 +69,15 @@ infoElement.innerHTML = "Here is the promised page with resources I've found so 
 <div class="resource">
 <h3><a class="resrcLink" href="https://play.elevatorsaga.com/">Elevator Saga</a></h3>
 </div>
+</div>
+<div class="flex">
+<div class="resource">
+<h3><a class="resrcLink" href="https://codepip.com/">codepip</a></h3>
+<p>A website with plenty of games that help you practice coding, especially CSS and JavaScript.</p>
+</div>
+<div class="resource">
+<h3><a class="resrcLink" href="https://codecombat.com/">CodeCombat</a></h3>
+<p>A game where you write code to make your character move and do quests!</p>
 </div>
 </body>
 </html>

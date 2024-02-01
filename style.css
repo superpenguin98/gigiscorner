@@ -92,6 +92,7 @@ p.about {
   padding:30px;
   margin:100px;
   font-family:lora;
+  text-align: justify;
   }
  
  .flex {
@@ -116,4 +117,9 @@ p.about {
 	 background-color: transparent;
 	 border: transparent;
 	 border-bottom: 2px solid #B8388B;
+ }
+ 
+ h1.resrch1 {
+	 font-family: "Dancing Script";
+	 font-size: 5vw;
  }
