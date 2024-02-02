@@ -5,12 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gigi's resources</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="https://fonts.googleapis.com/css?family=Lora|Fasthand|Dancing Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora|Fasthand|Dancing Script&effect=neon" rel="stylesheet">
 <link href='style.css' rel='stylesheet'>
 </head>
 <body style="background-color:#FFDEEF;">
 <header>
-<h1 class="resrch1">Gigi's resources</h1>
+<ul id="nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="#Books">Books</a></li>
+<li><a href="#Online">Online tutorials</a></li>
+<li><a href="#Games">Games</a></li>
+</ul>
+<h1 class="resrch1 font-effect-neon">Gigi's resources</h1>
 </header>
 <button class="info" type="button" onclick="myFunction()">About this page</button>
 <p id="info" class="about"></p>
@@ -22,7 +28,7 @@ infoElement.innerHTML = "Here is the promised page with resources I've found so 
 }
 </script>
 
-<h2>Books</h2>
+<h2 id="Books">Books</h2>
 <div class="flex">
 <div class="resource">
 <h3><a class="resrcLink" href="https://learningwebdesign.com/">Learning web design</a></h3>
@@ -40,7 +46,7 @@ I find this book great, it can explain difficult terms and concepts very easily,
 </div>
 </div>
 
-<h2>Online tutorials</h2>
+<h2 id="Online">Online tutorials</h2>
 <div class="flex">
 <div class="resource">
 <h3><a class="resrcLink" href="https://www.w3schools.com/">W3Schools</a></h3>
@@ -60,7 +66,7 @@ However, it still serves as a good platform for practice and I come back to it f
 </div>
 </div>
 
-<h2>Games</h2>
+<h2 id="Games">Games</h2>
 <div class="flex">
 <div class="resource">
 <h3><a class="resrcLink" href="https://flexboxfroggy.com/#pl">Flexbox Froggy</a></h3>

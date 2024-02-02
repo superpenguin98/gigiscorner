@@ -121,5 +121,6 @@ p.about {
  
  h1.resrch1 {
 	 font-family: "Dancing Script";
-	 font-size: 5vw;
+	 font-size: 4vw;
+	 transform: scale(2,2);
  }
