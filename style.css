@@ -63,6 +63,11 @@ li {
 
 ul li:hover {
 	font-family: lora;}
+	
+.heart:hover {
+	fill: #FF4646;
+	stroke: white;
+}
 
 /* Here starts the section for CSS for Resources page */
 
