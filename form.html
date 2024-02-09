@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gigi's form</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href='https://fonts.googleapis.com/css?family=Lora|Audiowide' rel='stylesheet'>
+<link href='style.css' rel='stylesheet'>
+</head>
+<body>
+<h1 id="formh1">Gigi's form</h1>
+<form>
+<fieldset>
+<legend class="fquestion">Introduce yourself</legend>
+<div class="fanswer">
+<label for="fname">1. Your name:</label></br>
+<input type="text" id="fname" name="fname" required autofocus><br>
+<label for="nname">2. Your funny nickname:</label><br>
+<input type="text" id="nname" name="nname" required>
+</div>
+</fieldset>
+
+<p class="fquestion">3. How are you?</p>
+<div class="fanswer">
+<input type="radio" id="great" name="howyoudoing" value="Great">
+<label for="great">Great</label>
+<input type="radio" id="good" name="howyoudoing" value="Good">
+<label for="good">Good</label><br>
+<input type="radio" id="soso" name="howyoudoing" value="So-so">
+<label for="soso">So-so</label>
+<input type="radio" id="idk" name="howyoudoing" value="Idk">
+<label for="idk">Idk</label><br>
+<input type="radio" id="bad" name="howyoudoing" value="Bad">
+<label for="bad">Bad</label>
+<input type="radio" id="terrible" name="howyoudoing" value="Terrible">
+<label for="terrible">Terrible</label>
+</div>
+<br>
+<br>
+
+<label class="fquestion" for="date">4. What day is it today?</label><br><br>
+<input type="date" id="date" name="date"><br>
+
+<label class="fquestion" for="favcolor">5. What is your favourite colour?</label><br><br>
+<input type="color" id="favcolor" name="favcolor" value="#00ff00"><br>
+
+<label class="fquestion" for="animals">6. What is your favourite animal?</label><br><br>
+<div class="fanswer">
+<select id="animals" name="animals">
+<option value="duck1">Duck</option>
+<option value="duck2">Duck</option>
+<option value="duck3">Duck</option>
+<option value="duck4">Duck</option>
+</select>
+</div>
+<br>
+<p class="fquestion">7. Tell me about your last encounter with this animal!</p>
+<textarea name="encounter" rows="10" cols="50">
+I met a duck...
+</textarea>
+<br>
+<p class="fquestion">8. If your favourite animal could be your pet, what would you do with it? Choose all that apply.</p>
+<div class="fanswer">
+<input type="checkbox" id="activity1" name="activity1" value="Walk">
+<label for="activity1">I would take it for a walk.</label><br>
+<input type="checkbox" id="activity2" name="activity2" value="Shop">
+<label for="activity2">I would take it shopping.</label><br>
+<input type="checkbox" id="activity3" name="activity3" value="Bread">
+<label for="activity3">I would give it some  bread.</label><br>
+<input type="checkbox" id="activity4" name="activity4" value="Kiss">
+<label for="activity4">I would give it a kiss.</label>
+</div>
+<br>
+
+<p class="fquestion">9. How would you name it?</p>
+<input list="petnames" name="petnames">
+<datalist id="petnames">
+<option value="Lisa">
+<option value="Cutie">
+<option value="Cookie">
+<option value="George">
+<option value="Hans">
+</datalist><br>
+
+<label class="fquestion" for="quantity">10. How many of them would you like to have (between 10 and 100)?</label><br><br>
+<input type="number" id="quantity" name="quantity" min="10" max="100"><br>
+
+<label class="fquestion" for="vol">11. How loud do you usually listen to music? Give me the volumne value!</label><br><br>
+<input type="range" id="vol" name="vol" min="0" max="100" step="5"><br>
+<hr>
+<br>
+<button type="button" onclick="alert('Boooooo!')">Click me for fun!</button>
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

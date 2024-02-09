@@ -129,3 +129,28 @@ p.about {
 	 font-size: 4vw;
 	 transform: scale(2,2);
  }
+ 
+ /* Here starts the section for CSS for Silly Form page */
+ 
+ form {
+	 background-color: rgba(255, 255, 255, 0.5);
+	 margin-left: 300px;
+	 margin-right: 300px;
+	 border:2px solid black;
+	 border-radius: 8px;
+     padding:30px;
+ }
+ 
+ .fquestion {
+	 font-family: lora;
+	 font-size: 20px;
+ }
+.fanswer {
+	 font-family: lora;
+	 font-size: 18px;
+ }
+ 
+ #formh1 {
+	 font-family: audiowide;
+	 font-size: 4vw;
+ }
