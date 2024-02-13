@@ -54,7 +54,10 @@ tr:hover {
   padding-right: 20px;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.5);
+  font-family: lora;
+  font-size: 15px;
 }
+
 
 li {
   float: left;
@@ -66,7 +69,8 @@ ul li:hover {
 	
 .heart:hover {
 	fill: #FF4646;
-	stroke: white;
+	stroke: black;
+	transform: scale(0.95);
 }
 
 /* Here starts the section for CSS for Resources page */
