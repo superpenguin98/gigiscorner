@@ -73,6 +73,24 @@ ul li:hover {
 	transform: scale(0.95);
 }
 
+div.card {
+	margin: auto;
+	width: 300px;
+	height: 100px;
+	background-color: #DC96E3;
+	box-shadow: 20px 20px black;
+	border-radius: 8px;
+}
+div.card:hover {
+	margin: auto;
+	width: 300px;
+	height: 100px;
+	background-color: black;
+	box-shadow: 20px 20px #DC96E3;
+	color: white;
+	border-radius: 8px;
+}
+
 /* Here starts the section for CSS for Resources page */
 
 p.about {
