@@ -6,8 +6,17 @@ body {
   background-size: cover;}
 h1 {
   text-align: center;
-  font-family: porcelain;
-  text-shadow: 2px 2px 8px white;}
+  font-family: Homemade Apple;
+  text-shadow: 1px 1px 2px purple, 8px 8px 8px white;
+  font-size: 3.5em;}
+  
+h2 {
+	text-align: center;
+	font-family: spectral;
+	font-size: 1em;
+	transform: translate(60px,-50px);
+	word-spacing: 5px;
+}
 tr.evening {
   /* This class means that I use the product in the evening and/or only a few times a week, not daily! */
   background-color: #D7F0FF;
@@ -90,6 +99,17 @@ div.card:hover {
 	color: white;
 	border-radius: 8px;
 }
+
+img.kirby {
+	width: 100px;
+	height: 100px;
+	transition: width 2s, height 2s, transform 3s ease;
+}
+ img.kirby:hover {
+	 width: 300px;
+	 height: 300px;
+	 transform: rotate(360deg);
+ }
 
 /* Here starts the section for CSS for Resources page */
 
