@@ -10,7 +10,7 @@ h1 {
   text-shadow: 1px 1px 2px purple, 8px 8px 8px white;
   font-size: 3.5em;}
   
-h2 {
+h2#home {
 	text-align: center;
 	font-family: spectral;
 	font-size: 1em;
@@ -111,26 +111,49 @@ img.kirby {
 	 transform: rotate(360deg);
  }
 
+@keyframes kirby-animation {
+  0% { left: 0px; top: 0px; }
+  25% { left: 200px; top: 0px; transform: rotate(90deg);}
+  50% { left: -200px; top: 0px; transform: rotate (180deg);}
+  75% { left: 0px; top: -100px; transform: rotate (250deg);}
+  100% { left: 0px; top: 0px; transform: rotate(360deg);}
+}
+
+.animkirby {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: kirby-animation;
+  animation-delay: 1s;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  }
+
 /* Here starts the section for CSS for Resources page */
 
-p.about {
+.about {
   border-radius: 8px;
   padding:30px;
   margin:100px;
   text-align:center;
   font-family:lora;
+  border: 2px solid black;
+background-color:rgba(255, 255, 255, 0.5);
 }
 
-.showBorder {
-    border: 2px solid black;
-	background-color:rgba(255, 255, 255, 0.5);
-  }
+#info {
+	display: none;
+}
+
  .info {
 	 background-color:transparent;
 	 font-family: fasthand;
 	 font-size: 30px;
 	 border: transparent;
 	 border-bottom: 2px solid black;
+	 display: inline;
  }
  .resource {
   background-color:rgba(255, 255, 255, 0.5);

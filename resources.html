@@ -18,16 +18,17 @@
 </ul>
 <h1 class="resrch1 font-effect-neon">Gigi's resources</h1>
 </header>
-<button class="info" type="button" onclick="myFunction()">About this page</button>
-<p id="info" class="about"></p>
+<p class="info" onclick="myFunction()">About this page</p>
+<div id="info" class="about">
+<p>Here is the promised page with resources I've found so far.</p>
+<p>I decided to divide them into several categories. I'm sure the page will grow as I keep finding new interesting websites all the time.</p>
+<p>I hope you enjoy this small page and find something useful for you too!</p>
+</div>
 <script>
 function myFunction() {
-var infoElement = document.getElementById("info");
-infoElement.innerHTML = "Here is the promised page with resources I've found so far. I decided to divide them into several categories. I'm sure the page will grow as I keep finding new interesting websites all the time. I hope you enjoy this small page and find something useful for you too!"
-  infoElement.classList.add("showBorder");
+document.getElementById("info").style.display = "block";
 }
 </script>
-
 <h2 id="Books">Books</h2>
 <div class="flex">
 <div class="resource">
