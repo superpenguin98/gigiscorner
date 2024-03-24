@@ -57,6 +57,19 @@ tr:hover {
   color: white;
   background-color: #674CFF;
   }
+.nav-container {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: flex-start;
+	 align-content: space-around;
+ }
+ @media (max-width: 800px) {
+  .nav-container {
+    flex-direction: column;
+  }
+}
+  
 #nav{
   list-style-type: none;
   margin: 0;
