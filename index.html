@@ -10,21 +10,46 @@
 </head>
 <body style="background-color:#FFDEEF;">
 <header>
-<ul id="nav" class="nav-container">
-<li><a href="https://www.w3schools.com/">W3Schools</a></li>
-<li><a href="https://github.com/superpenguin98">My GitHub</a></li>
-<li><a href="resources.html">My resources</a></li>
-<li><a href="form.html">My silly form</a></li>
+<button id="menuButton">
+<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="white"><path d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h440q17 0 28.5 11.5T640-280q0 17-11.5 28.5T600-240H160Zm596-68L612-452q-12-12-12-28t12-28l144-144q11-11 28-11t28 11q11 11 11 28t-11 28L696-480l116 116q11 11 11 28t-11 28q-11 11-28 11t-28-11ZM160-440q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h320q17 0 28.5 11.5T520-480q0 17-11.5 28.5T480-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h440q17 0 28.5 11.5T640-680q0 17-11.5 28.5T600-640H160Z"/></svg>
+</button><br>
+<ul id="menu">
+  <li><a href="index.html" style="border-top-right-radius: 5px; border-top-left-radius: 5px;">Home</a></li>
+  <li><a href="https://github.com/superpenguin98">GitHub</a></li>
+  <li><a href="https://codepen.io/superpenguin98">CodePen</a></li>
+  <li><a href="2023.html">Entries 2023</a></li>
+  <li><a href="resources.html">My resources</a></li>
+  <li><a href="form.html" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">My silly form</a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#menuButton').bind('click', function() {
+        $('#menu').toggleClass('menuAppear');
+    });
+});
+</script>
+<!-- 
 <li><a href="#October">October entries</a></li>
 <li><a href="#November">November entries</a></li>
 <li><a href="#December">December entries</a></li>
 <li><a href="#January">January entries</a></li>
 <li><a href="#February">February entries</a></li>
-<li><a href="#March">March entries</a></li>
-</ul>
+<li><a href="#March">March entries</a></li> -->
+
 <h1 title="Hello">Gigi's corner<img src="bear.gif" width="150" height="150" alt="Cute bear" style="vertical-align:text-bottom"></h1>
 <h2 id="home">Diary entries on my journey to be a fancy IT bitch</h2>
 </header>
+
+<div class="post">
+<h3>2nd June</h3>
+<p>How do you like the new menu? Is it nice? I finally learned how to make nice buttons!</p>
+<p>Here is how it used to look like:</p>
+<img src="beforemenu.png" width="1000px" height="200px" alt="Menu before the changes">
+<p>I still need to work on certain things, like updating the menu on other pages or creating a new page just for my entries from 2023.</p>
+<p>I thought in this way the website wouldn't be so messy.</p>
+<p>I am also thinking of changing the colour palette. Maybe blue?</p>
+</div>
 <div class="post">
 <h3>28th May</h3>
 <p>Hi!</p>

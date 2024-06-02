@@ -57,37 +57,55 @@ tr:hover {
   color: white;
   background-color: #674CFF;
   }
-.nav-container {
-	 display: flex;
-	 flex-direction: row;
-	 flex-wrap: wrap;
-	 justify-content: flex-start;
-	 align-content: space-around;
- }
- @media (max-width: 800px) {
-  .nav-container {
-    flex-direction: column;
-  }
+ /* Here starts the section for CSS for the menu */
+#menuButton {
+  border: transparent;
+  background-color: transparent;
+  transform: scale(2,2);
+  cursor: pointer;
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
+  right: 50px;
+}
+#menuButton svg:hover {
+	fill: black;
+	transition-duration: 0.5s;
+}
+
+.menuAppear{
+  display: block !important;
+}
+
+ul#menu{
+  display: none;
+  list-style-type: none;
+  position: absolute; 
+  top:30px;
+  right: 50px;
+  z-index: 999;
+}
+li a {
+  display: inline-block;
+  font-family: lora;
+  color: white;
+  background-color: purple;
+  padding: 10px 50px;
+  height: 40px;
+  width: 150px;
+  margin-left: 10px;
+  border-bottom: 2px solid grey;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.5s;
 }
   
-#nav{
-  list-style-type: none;
-  margin: 0;
-  padding-right: 20px;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.5);
-  font-family: lora;
-  font-size: 15px;
-}
 
-
-li {
-  float: left;
-  padding-right: 30px;
-}
-
-ul li:hover {
-	font-family: lora;}
 	
 .heart:hover {
 	fill: #FF4646;
