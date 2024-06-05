@@ -57,7 +57,40 @@ tr:hover {
   color: white;
   background-color: #674CFF;
   }
+  
+  
+  /* Here starts the section for CSS for the search button */
+  
+ .search {
+	position: absolute;
+	background-color: transparent;
+	cursor: pointer;
+	transform: scale(2,2);
+	border: transparent;
+	visibility: visible;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	top: 9px;
+	right: 120px;
+  }
+  
+ #search {
+	position:absolute;
+	border-radius: 20px;
+	border-color: white;
+	width: 200px;
+	height: 25px;
+	visibility: hidden;
+	top: 12px;
+	right: 180px;
+}
+
+.animate-search {
+	visibility: visible !important;
+}
+  
  /* Here starts the section for CSS for the menu */
+ 
 #menuButton {
   border: transparent;
   background-color: transparent;
@@ -67,10 +100,14 @@ tr:hover {
   z-index: 1000;
   top: 10px;
   right: 50px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
 }
 #menuButton svg:hover {
-	fill: black;
 	transition-duration: 0.5s;
+	border-radius: 50%;
+	background-color: grey;
 }
 
 .menuAppear{
