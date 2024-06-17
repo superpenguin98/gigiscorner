@@ -1,9 +1,5 @@
 body {
-  background-image: url("gradient2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  background-size: cover;}
+  background-color: #4e304d}
 h1 {
   text-align: center;
   font-family: Homemade Apple;
@@ -13,6 +9,7 @@ h1 {
 h2#home {
 	text-align: center;
 	font-family: spectral;
+	color: #D5B89F;
 	font-size: 1em;
 	transform: translate(60px,-50px);
 	word-spacing: 5px;
@@ -22,14 +19,21 @@ tr.evening {
   background-color: #D7F0FF;
   
 }    
-div.post {background-color:rgba(255, 255, 255, 0.5);
-  border:2px solid black;
+div.post {background-color:rgba(241, 183, 234, 0.8);
+  border:2px solid #432c55;
   border-radius: 8px;
   padding:30px;
   margin:100px;
   text-align:center;
   font-family:lora;}
-a:link, a:visited {
+  
+  div.post:hover {
+	  background-color: #FAE0F4;
+	  transition-duration: 0.5s;
+  }
+  
+  
+/* a:link, a:visited {
   background-color: purple;
   color: white;
   border: 2px solid white;
@@ -41,7 +45,9 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: white;
   color: black;
-  }
+  }  
+  */
+  
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -126,18 +132,18 @@ li a {
   display: inline-block;
   font-family: lora;
   color: white;
-  background-color: purple;
+  background-color: #432c55;
   padding: 10px 50px;
   height: 40px;
   width: 150px;
   margin-left: 10px;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid transparent;
   text-align: center;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: white;
+  background-color: #eaaedb;
   color: black;
   transition-duration: 0.5s;
 }
