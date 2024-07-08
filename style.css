@@ -148,6 +148,60 @@ li a:hover {
   transition-duration: 0.5s;
 }
   
+/* Here starts the CSS section for the About Me window */
+.kittyHi {
+  height: 50px;
+  width: 55px;
+}
+#aboutMe {
+  background-color: transparent;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+#aboutMeSection {
+  display: none;
+  height: 400px;
+  width: 300px;
+  background-color: #FADCD5;
+  border-radius: 5px;
+  border: 2px solid #4B2136;
+  position: absolute;
+  top: 10px;
+  left: 110px;
+}
+
+img.aboutMePic {
+  height: 60px;
+  width: 60px; 
+  border: 2px solid #4B2138;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 105px;
+  background-color: #765D67;
+}
+
+#aboutMeSection h4 {
+	text-align: center;
+	padding-top: 10px;
+	font-family: lora;
+}
+
+#aboutMeSection p {
+  color: #2D222F;
+  font-family: lora;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.meAppear {
+  display: block !important;
+}
+
+
 
 	
 .heart:hover {
